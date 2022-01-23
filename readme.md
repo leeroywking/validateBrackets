@@ -13,13 +13,12 @@ Modify the function "validateParens" in the file validateParens.js so that it sa
 Given a string s containing just the characters '(', ')'
 determine if the input string is valid.
 
-An input string is valid if:
-- Open brackets must be closed in the correct order.
+Open brackets must be closed in the correct order.
 
-"" => true;
+"" => true
 "()" => true
-")(" => false)
-"()()()()()()()()()" => true)
+")(" => false
+"()()()()()()()()()" => true
 "((((((()))))))" => true
 "(()()()()()()()()()" => false
 "(((((((()))))))" => false
